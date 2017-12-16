@@ -1,0 +1,322 @@
+<!doctype html>
+<html>
+<head>
+    <meta id="viewport" name="viewport" content="width=device-width">
+    <meta name="format-detection" content="telephone=no">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title></title>
+
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="css/jquery-ui.min.css">
+    <link rel="stylesheet" type="text/css" href="css/jquery-ui.structure.min.css">
+    <link rel="stylesheet" type="text/css" href="css/jquery-ui.theme.min.css">
+    <link rel="stylesheet" type="text/css" media="screen,print" href="css/default.css?v=1"> 
+
+    <script type="text/javascript" src="js/jquery-1.11.0.min.js"></script> 
+    <script type="text/javascript" src="js/jquery-ui.min.js"></script> 
+    <script type="text/javascript" src="haf/core.js"></script> 
+    <script type="text/javascript" src="js/init.js?v=1"></script>
+</head>
+
+<body class="cs_cz">
+
+<div class="overlay overlay-1" style="display:none;">
+    <div class="popup">
+        <a href="" class="close">X</a>
+        <article class="article">
+            <h1 id="tCongratulations01"></h1>
+            <h2 id="tCongratulations02"></h2>
+            <p id="tCongratulations03"></p>
+        </article>
+    </div>
+</div>
+<div class="overlay overlay-2" style="display:none;">
+    <div class="popup">
+        <a href="" class="close">X</a>
+        <article class="article">
+            <h1 id="tCongratulations04"></h1>
+            <p id="tCongratulations05"></p>
+        </article>
+    </div>
+</div>
+
+<header class="row header">
+    <div class="inner">
+        <a href="" class="logo" title="Holmes Place">
+            <img src="gfx/logo/holmesplace@2x.png" alt="">
+        </a>
+        <nav class="lang">
+            <ul class="langs">
+                <li class="en"><a href="" id="lang1"></a></li>
+                <li class="pt"><a href="" id="lang2"></a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<div class="row hero-banner" style="background-image:url(img/hero01.jpg);">
+    <div class="inner">
+        <div class="cols">
+            <div class="col-left">
+                <h1 id="tText01"></h1>
+                <p id="tText02"></p>
+                <div class="logo">
+                    <img src="gfx/logo/xpress@2x.png" alt="">
+                </div>
+            </div>
+            <div class="col-right">
+                <form action="" method="post" class="subscribe">
+                    <div class="text1">
+                        <p id="tText03"></p>
+                        <h2 id="tText04"></h2>
+                    </div>
+                    <div class="text2b" style="display:none;">
+                        <p id="tText05"></p>
+                        <h2 id="tText06"></h2>
+                    </div>
+                    <br>
+                    <section class="form-body">
+                        <div class="step1">
+                            <div class="form-row form-row-text form-row-double">
+                                <div class="col"><input type="text" id="firstname" placeholder="First name"></div>
+                                <div class="col"><input type="text" id="lastname" placeholder="Last name"></div>
+                            </div>
+                            <div class="form-row form-row-text">
+                                <input type="email" id="email" placeholder="Email">
+                            </div>
+                            <div class="form-row form-row-buttonset">
+                                <p id="tText07"></p>
+                                <input type="radio" id="yes" name="membership">
+                                <label for="yes">Yes</label>
+                                <input type="radio" id="no" name="membership">
+                                <label for="no">No</label>
+                            </div>
+                            <div class="form-row form-row-submit">
+                                <input type="submit" id="nextstep" value="Get Your Free Guest Pass">
+                            </div>
+                        </div>
+                        <div class="step2a" style="display:none;">
+                            <div class="form-row form-row-text">
+                                <input type="text" id="phone" placeholder="Phone">
+                            </div>
+                            <div class="form-row form-row-selectbox">
+                                <select id="club">
+                                    <option value="0" id="tText08"></option>
+                                </select>
+                            </div>
+                            <div class="form-row form-row-selectbox">
+                                <select id="xpressclass">
+                                    <option value="0" id="tText09"></option>
+                                </select>
+                            </div>
+                            <div class="form-row form-row-buttonset">
+                                <input type="radio" id="male" name="sex">
+                                <label for="male"><span id="tText10"></span></label>
+                                <input type="radio" id="female" name="sex">
+                                <label for="female"><span id="tText11"></span></label>
+                            </div>
+                            <div class="form-row form-row-buttonset form-row-agree">
+                                <input type="checkbox" id="accept">
+                                <label for="accept"><span id="tText12"></span></label>
+                            </div>
+                            <div class="form-row form-row-submit">
+                                <input type="submit" id="send1" value="Submit">
+                            </div>                          
+                        </div>
+                        <div class="step2b" style="display:none;">
+                            <div class="form-row form-row-text form-row-double">
+                                <div class="col"><input type="text" id="friendfirstname" placeholder="Friend's first name"></div>
+                                <div class="col"><input type="text" id="friendlastname" placeholder="Friend's last name"></div>
+                            </div>
+                            <div class="form-row form-row-text">
+                                <input type="email" id="friendsemail" placeholder="Friend's email">
+                            </div>
+                            <div class="form-row form-row-buttonset form-row-agree">
+                                <input type="checkbox" id="accept2">
+                                <label for="accept2"><span id="tText13"></span></label>
+                            </div>
+                            <div class="form-row form-row-submit">
+                                <input type="submit" id="send2" value="Send a Free Guest Pass">
+                            </div>  
+                        </div>
+                    </section>
+                </form>
+                
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row content text-page">
+    <div class="inner text-center">
+        <h2 id="tText14"></h2>
+        <h3 id="tText15"></h3>
+        <p id="tText16"></p>
+        <div class="row info">
+            <div class="col col-4">
+                <article>
+                    <img src="gfx/icon/info01.png" alt="">
+                    <h3 id="tText17"></h3>
+                    <p id="tText18"></p>
+                </article>
+            </div>
+            <div class="col col-4">
+                <article>
+                    <img src="gfx/icon/info02.png" alt="">
+                    <h3 id="tText19"></h3>
+                    <p id="tText20"></p>
+                </article>
+            </div>
+            <div class="col col-4">
+                <article>
+                    <img src="gfx/icon/info03.png" alt="">
+                    <h3 id="tText21"></h3>
+                    <p id="tText22"></p>
+                </article>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row content training">
+    <div class="inner">
+        <div class="cols">
+            <div class="col col-3">
+                <article class="training-1">
+                    <a href="">
+                        <div class="img" style="background-image:url(img/img01.jpg);"></div>
+                        <div class="txt">
+                            <h2 id="tText23"></h2>
+                            <p id="tText24"></p>
+                        </div>
+                    </a>
+                </article>
+            </div>
+            <div class="col col-3">
+                <article class="training-2">
+                    <a href="">
+                        <div class="img" style="background-image:url(img/img02.jpg);"></div>
+                        <div class="txt">
+                            <h2 id="tText25"></h2>
+                            <p id="tText26"></p>
+                        </div>
+                    </a>
+                </article>
+            </div>
+            <div class="col col-3">
+                <article class="training-3">
+                    <a href="">
+                        <div class="img" style="background-image:url(img/img03.jpg);"></div>
+                        <div class="txt">
+                            <h2 id="tText27"></h2>
+                            <p id="tText28"></p>
+                        </div>
+                    </a>
+                </article>
+            </div>
+            <div class="col col-3">
+                <article class="training-4">
+                    <a href="">
+                        <div class="img" style="background-image:url(img/img04.jpg);"></div>
+                        <div class="txt">
+                            <h2 id="tText29"></h2>
+                            <p id="tText30"></p>
+                        </div>
+                    </a>
+                </article>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row content text-page">
+    <div class="inner">
+        <blockquote>
+            <p>"<span id="tText31"></span>"</p>
+            <p class="person"><span class="img"><img src="img/img05.jpg" alt=""></span> Matteo Cerruti, Holmes Place Group Excercise Director</p>
+            <a href="" class="btn btn-default" id="tText32"></a>
+        </blockquote>
+    </div>
+</div>
+
+<div class="row content text-page text-page-white text-page-image" style="background-image:url(img/img06.jpg);">
+    <div class="inner">
+        <div class="cols">
+            <div class="col col-6 offset-6">
+                <h2 id="tText33"></h2>
+                <p id="tText34"></p>
+                <p id="tText35"></p>
+                <a href="" class="btn btn-secondary" id="tText36"></a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row content text-page text-page-white text-page-white-type-2">
+    <div class="inner text-center">
+        <h2 id="tText37"></h2>
+        <p id="tText38"></p>
+    </div>
+</div>
+
+<div class="row content text-page testimonials" style="background-image:url(gfx/background/back-01.png);">
+    <div class="inner text-center">
+        <h2 id="tText49"></h2>
+        <p id="tText50"></p>
+        <ul class="list list-testimonials">
+            <li class="item">
+                <article>
+                    <h3><span class="img"><img src="img/img07.jpg" alt=""></span><span id="tText39"></span></h3>
+                    <p id="tText40"></p>
+                </article>
+            </li>
+            <li class="item">
+                <article>
+                    <h3><span class="img"><img src="img/img08.jpg" alt=""></span><span id="tText41"></span></h3>
+                    <p id="tText42"></p>
+                </article>
+            </li>
+            <li class="item">
+                <article>
+                    <h3><span class="img"><img src="img/img09.jpg" alt=""></span><span id="tText43"></span></h3>
+                    <p id="tText44"></p>
+                </article>
+            </li>
+        </ul>
+    </div>
+</div>
+
+<div class="row content text-page text-page-white text-page-image" style="background-image:url(img/img10.jpg);">
+    <div class="inner p-size-2">
+        <div class="cols">
+            <div class="col col-5 offset-1">
+                <h2 id="tText45"></h2>
+                <p id="tText46"></p>
+                <a href="" class="btn btn-secondary" id="tText47"></a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<footer class="row footer">
+    <div class="inner">
+        <p class="copy" id="tText48"></p>
+    </div>
+</footer>
+
+<script type="text/javascript">
+var app={cn: 'de', lang: 'en'};
+addEventListener('load',start);
+
+function start() {
+    langSet(app.cn, app.lang);
+}
+
+function check() {
+    //form validation here
+    alert('registration');
+}
+</script>
+
+</body>
+</html>

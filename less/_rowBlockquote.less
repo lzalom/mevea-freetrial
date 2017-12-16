@@ -1,0 +1,129 @@
+.row.content.text-page .inner blockquote {
+	font-style:normal !important;
+	text-align:center;
+	
+	p {
+		font-size:56px;
+		line-height:70px;
+		font-weight:300;
+		letter-spacing:1px;
+		
+		&.person {
+			padding-top:30px;
+			font-size:19px;
+			line-height:30px;
+			padding-bottom:70px;
+			font-weight:400;
+
+			.img {
+				width:82px;
+				height:81px;
+				display:inline-block;
+				position:relative;
+				margin-right:15px;
+				top:35px;
+
+				img {
+					width:100%;
+				}
+			}
+		}
+	}
+	&:before {
+		display:none;
+	}
+	.btn {
+		text-align:center;
+		min-width:420px;
+	}
+}
+@media (max-width: 1664px) {
+	.row.content.text-page .inner blockquote {		
+		p {
+			font-size:unit(percentage(56/1664), vw);
+			line-height:unit(percentage(70/1664), vw);
+			letter-spacing:unit(percentage(1/1664), vw);
+			
+			&.person {
+				padding-top:unit(percentage(30/1664), vw);
+				font-size:unit(percentage(19/1664), vw);
+				line-height:unit(percentage(30/1664), vw);
+				padding-bottom:unit(percentage(70/1664), vw);
+
+				.img {
+					width:unit(percentage(82/1664), vw);
+					height:unit(percentage(81/1664), vw);
+					margin-right:unit(percentage(15/1664), vw);
+					top:unit(percentage(32/1664), vw);
+				}
+			}
+		}
+		.btn {
+			min-width:unit(percentage(420/1664), vw);
+		}
+	}
+}
+@media (max-width: 980px) {
+	.row.content.text-page .inner blockquote {		
+		p {
+			font-size:unit(percentage(61/1664), vw);
+			line-height:unit(percentage(75/1664), vw);
+			letter-spacing:unit(percentage(1/1664), vw);
+			
+			&.person {
+				padding-top:unit(percentage(35/1664), vw);
+				font-size:unit(percentage(34/1664), vw);
+				line-height:unit(percentage(45/1664), vw);
+				padding-bottom:unit(percentage(70/1664), vw);
+
+				.img {
+					width:unit(percentage(87/1664), vw);
+					height:unit(percentage(86/1664), vw);
+					margin-right:unit(percentage(20/1664), vw);
+					top:unit(percentage(37/1664), vw);
+				}
+			}
+		}
+		.btn {
+			min-width:unit(percentage(420/1664), vw);
+		}
+	}
+}
+@media (max-width: 768px) {
+	.row.content.text-page .inner blockquote {		
+		p {
+			font-size:36px;
+			line-height:40px;
+			
+			&.person {
+				padding-top:10px;
+				font-size:14px;
+				line-height:25px;
+				padding-bottom:20px;
+				font-weight:400;
+
+				.img {
+					width:82px;
+					height:81px;
+					position:relative;
+					margin-right:15px;
+					top:0px;
+					margin-bottom:7px;
+					display:block;
+					margin:auto;
+
+					img {
+						width:100%;
+					}
+				}
+			}
+		}
+		&:before {
+			display:none;
+		}
+		.btn {
+			text-align:center;
+			min-width:220px;
+		}
+	}
+}

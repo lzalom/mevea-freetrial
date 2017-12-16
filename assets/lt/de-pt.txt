@@ -1,0 +1,287 @@
+var lt=[
+	{"name": "lang1", "text": "EN", "mode": "id"},
+	{"name": "lang1", "text": "javascript:langSet('de','en');", "mode": "href"},
+	{"name": "lang1", "text": "lang1", "mode": "class"},
+
+	{"name": "lang2", "text": "PT", "mode": "id"},
+	{"name": "lang2", "text": "#", "mode": "href"},
+	{"name": "lang2", "text": "lang2", "mode": "class"},
+
+	{
+		"name": "tCongratulations01",
+		"text": "Success!",
+		"mode": "id"
+	},
+	{
+		"name": "tCongratulations04",
+		"text": "Success!",
+		"mode": "id"
+	},
+	{
+		"name": "tCongratulations02",
+		"text": "Now get ready to try your favourite fast, fun and effective Xpress Class!",
+		"mode": "id"
+	},
+	{
+		"name": "tCongratulations03",
+		"text": "Your free 1-day trial should arrive in your inbox shortly - Xpress mode.<br>Thank you and see you soon!",
+		"mode": "id"
+	},
+	{
+		"name": "tCongratulations05",
+		"text": "The free 1-day trial for your friend should arrive in your friend's inbox shortly - Xpress mode.<br>Thank you and enjoy the journey together!",
+		"mode": "id"
+	},
+
+	{
+		"name": "tText01",
+		"text": "Fast, Fun, Effective. XXXX",
+		"mode": "id"
+	},
+	{
+		"name": "tText02",
+		"text": "Be the first to try the new Holmes Place Xpress classes.<br>Choose the Xpress class that best suits your fitness goals and enjoy it with this 1-day free guest pass.",
+		"mode": "id"
+	},
+	{
+		"name": "tText03",
+		"text": "Fill this Form",
+		"mode": "id"
+	},
+	{
+		"name": "tText04",
+		"text": "Get Your 1-Day<br>Free Guest Pass",
+		"mode": "id"
+	},
+	{
+		"name": "tText05",
+		"text": "The journey is always better when enjoyed with friends.",
+		"mode": "id"
+	},
+	{
+		"name": "tText06",
+		"text": "Fill in the form and we'll offer your friend a 1-day free pass to try express classes with you",
+		"mode": "id"
+	},
+	{
+		"name": "tText07",
+		"text": "Are you a Holmes Place member?",
+		"mode": "id"
+	},
+	{
+		"name": "tText08",
+		"text": "Choose your preferred club",
+		"mode": "id"
+	},
+	{
+		"name": "tText09",
+		"text": "Choose your favourite Xpress Class",
+		"mode": "id"
+	},
+	{
+		"name": "tText10",
+		"text": "Male",
+		"mode": "id"
+	},
+	{
+		"name": "tText11",
+		"text": "Female",
+		"mode": "id"
+	},
+	{
+		"name": "tText12",
+		"text": "I accept the <a href=''>terms and conditions</a>",
+		"mode": "id"
+	},
+	{
+		"name": "tText13",
+		"text": "I accept the <a href=''>terms and conditions</a>",
+		"mode": "id"
+	},
+	{
+		"name": "tText14",
+		"text": "Introducing four New Xpress Classes",
+		"mode": "id"
+	},
+	{
+		"name": "tText15",
+		"text": "Exclusive for Holmes Place Clubs",
+		"mode": "id"
+	},
+	{
+		"name": "tText16",
+		"text": "Get ready to try 15 minutes of fast, fun and effective training.",
+		"mode": "id"
+	},
+	{
+		"name": "tText17",
+		"text": "Fast, Fun, Effective",
+		"mode": "id"
+	},
+	{
+		"name": "tText18",
+		"text": "15 minutes of fun to help you reach your fitness goals.",
+		"mode": "id"
+	},
+	{
+		"name": "tText19",
+		"text": "Small Group Training",
+		"mode": "id"
+	},
+	{
+		"name": "tText20",
+		"text": "The intensity of personal gym circuit training as well as the fun of the group exprerience.",
+		"mode": "id"
+	},
+	{
+		"name": "tText21",
+		"text": "Expertly designed",
+		"mode": "id"
+	},
+	{
+		"name": "tText22",
+		"text": "Innovative and cutting-edge classes that are exclusive to Holmes Place.",
+		"mode": "id"
+	},
+	{
+		"name": "tText23",
+		"text": "Roller",
+		"mode": "id"
+	},
+	{
+		"name": "tText24",
+		"text": "Rejuvenation, release, renewal and recovery.",
+		"mode": "id"
+	},
+	{
+		"name": "tText25",
+		"text": "ABS",
+		"mode": "id"
+	},
+	{
+		"name": "tText26",
+		"text": "Muscular reinforcement exercises for your abdomen and back. 100% effective!",
+		"mode": "id"
+	},
+	{
+		"name": "tText27",
+		"text": "Functional",
+		"mode": "id"
+	},
+	{
+		"name": "tText28",
+		"text": "Training with different weights at different intensities using sandbells.",
+		"mode": "id"
+	},
+	{
+		"name": "tText29",
+		"text": "Circuit",
+		"mode": "id"
+	},
+	{
+		"name": "tText30",
+		"text": "Improve technical skills that make your everyday activities easier.",
+		"mode": "id"
+	},
+	{
+		"name": "tText31",
+		"text": "Our mission is to make health and fitness enjoyable, and there is no better way to enjoy that journey than to share it with someone special.",
+		"mode": "id"
+	},
+	{
+		"name": "tText32",
+		"text": "Try the New Xpress Classes",
+		"mode": "id"
+	},
+	{
+		"name": "tText33",
+		"text": "But why 15 minutes?",
+		"mode": "id"
+	},
+	{
+		"name": "tText34",
+		"text": "According to a recent study in the European Journal of Applied Physiology, 15 minutes of training can elevate your resting energy expenditure for 72 hours after exercising just as effectively as 35 minutes can.",
+		"mode": "id"
+	},
+	{
+		"name": "tText35",
+		"text": "So no need to hurry, and no need to worry.<br>It’s time to join our classes and find out exactly what each one can do for your training purposes.",
+		"mode": "id"
+	},
+	{
+		"name": "tText36",
+		"text": "Choose a Class and Get a Free Guest Pass",
+		"mode": "id"
+	},
+	{
+		"name": "tText37",
+		"text": "Expertly designed to meet your fitness goals.",
+		"mode": "id"
+	},
+	{
+		"name": "tText38",
+		"text": "We all know new habits are hard to start and maintain, competing for time with our busy everyday schedules. That’s why we came up with a new plan.  At our Innovation Center, Holmes Place experts have designed four Xpress Classes to meet your fitness goals in just 15 minutes.",
+		"mode": "id"
+	},
+	{
+		"name": "tText39",
+		"text": "Giulia Sagramola",
+		"mode": "id"
+	},
+	{
+		"name": "tText40",
+		"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec semper convallis urna, ac faucibus turpis pharetra vitae. Curabitur convallis, justo eget pulvinar finibus",
+		"mode": "id"
+	},
+	{
+		"name": "tText41",
+		"text": "Kamil Czujowski",
+		"mode": "id"
+	},
+	{
+		"name": "tText42",
+		"text": "Fusce est nisi, tincidunt eu mollis non, semper a diam. Integer ut vulputate nisl. Phasellus eget urna et lectus imperdiet tempor.",
+		"mode": "id"
+	},
+	{
+		"name": "tText43",
+		"text": "Mike Finch",
+		"mode": "id"
+	},
+	{
+		"name": "tText44",
+		"text": "Mauris massa ipsum, mattis et viverra at, mollis sit amet ante. Curabitur vitae velit rutrum, vulputate leo vitae, suscipit ante. ",
+		"mode": "id"
+	},
+	{
+		"name": "tText45",
+		"text": "Get your 1-day guest pass and try your favorite Xpress Class!",
+		"mode": "id"
+	},
+	{
+		"name": "tText46",
+		"text": "Choose your favorite Xpress Class, and come to the Club.<br>The rest, is on us. ",
+		"mode": "id"
+	},
+	{
+		"name": "tText47",
+		"text": "Hurry Up and Get Your Free Guest Pass Now!",
+		"mode": "id"
+	},
+	{
+		"name": "tText48",
+		"text": "Holmes Place Central Marketing 2018, All Rights Reserved.",
+		"mode": "id"
+	},
+	{
+		"name": "tText49",
+		"text": "Don't take our word for it",
+		"mode": "id"
+	},
+	{
+		"name": "tText50",
+		"text": "Read what our members have to say about it.",
+		"mode": "id"
+	}
+];
+textsShow();
